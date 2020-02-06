@@ -5,5 +5,5 @@
  */
 
 var parser = new Parser();
-
+console.log("toto");
 parser.launchParsing(1);

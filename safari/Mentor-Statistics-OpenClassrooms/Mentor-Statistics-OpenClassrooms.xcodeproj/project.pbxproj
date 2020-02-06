@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97AFB9FF23EC45CE0038E6AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AFB9FE23EC45CE0038E6AD /* AppDelegate.swift */; };
+		97AFBA0123EC45CE0038E6AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AFBA0023EC45CE0038E6AD /* ContentView.swift */; };
+		97AFBA0323EC45D00038E6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA0223EC45D00038E6AD /* Assets.xcassets */; };
+		97AFBA0623EC45D00038E6AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA0523EC45D00038E6AD /* Preview Assets.xcassets */; };
+		97AFBA0923EC45D00038E6AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA0723EC45D00038E6AD /* Main.storyboard */; };
+		97AFBA1823EC45E60038E6AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AFBA1723EC45E60038E6AD /* Cocoa.framework */; };
+		97AFBA1B23EC45E60038E6AD /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AFBA1A23EC45E60038E6AD /* SafariExtensionHandler.swift */; };
+		97AFBA1D23EC45E60038E6AD /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AFBA1C23EC45E60038E6AD /* SafariExtensionViewController.swift */; };
+		97AFBA2023EC45E60038E6AD /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA1E23EC45E60038E6AD /* SafariExtensionViewController.xib */; };
+		97AFBA2323EC45E60038E6AD /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA2223EC45E60038E6AD /* script.js */; };
+		97AFBA2523EC45E60038E6AD /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA2423EC45E60038E6AD /* ToolbarItemIcon.pdf */; };
+		97AFBA2923EC45E60038E6AD /* Mentor Statistic OpenClassrooms.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97AFBA1523EC45E60038E6AD /* Mentor Statistic OpenClassrooms.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97AFBA3623EC461C0038E6AD /* Display.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA2F23EC461C0038E6AD /* Display.js */; };
+		97AFBA3723EC461C0038E6AD /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3023EC461C0038E6AD /* main.js */; };
+		97AFBA3823EC461C0038E6AD /* Statistics.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3123EC461C0038E6AD /* Statistics.js */; };
+		97AFBA3923EC461C0038E6AD /* Price.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3223EC461C0038E6AD /* Price.js */; };
+		97AFBA3A23EC461C0038E6AD /* SessionModel.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3323EC461C0038E6AD /* SessionModel.js */; };
+		97AFBA3B23EC461C0038E6AD /* Parser.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3423EC461C0038E6AD /* Parser.js */; };
+		97AFBA3C23EC461C0038E6AD /* DateUtils.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3523EC461C0038E6AD /* DateUtils.js */; };
+		97AFBA4323EC4D9D0038E6AD /* format.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3E23EC4D9D0038E6AD /* format.js */; };
+		97AFBA4423EC4D9D0038E6AD /* jquery-3.3.1.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA3F23EC4D9D0038E6AD /* jquery-3.3.1.js */; };
+		97AFBA4523EC4D9D0038E6AD /* jquery.tabletojson.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA4023EC4D9D0038E6AD /* jquery.tabletojson.js */; };
+		97AFBA4623EC4D9D0038E6AD /* config.js in Resources */ = {isa = PBXBuildFile; fileRef = 97AFBA4223EC4D9D0038E6AD /* config.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97AFBA2723EC45E60038E6AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97AFB9F323EC45CE0038E6AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97AFBA1423EC45E60038E6AD;
+			remoteInfo = Safari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97AFBA2D23EC45E60038E6AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97AFBA2923EC45E60038E6AD /* Mentor Statistic OpenClassrooms.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97AFB9FB23EC45CE0038E6AD /* Mentor Tool OpenClassrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mentor Tool OpenClassrooms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AFB9FE23EC45CE0038E6AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97AFBA0023EC45CE0038E6AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97AFBA0223EC45D00038E6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97AFBA0523EC45D00038E6AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97AFBA0823EC45D00038E6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97AFBA0A23EC45D00038E6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AFBA0B23EC45D00038E6AD /* Mentor_Statistics_OpenClassrooms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mentor_Statistics_OpenClassrooms.entitlements; sourceTree = "<group>"; };
+		97AFBA1523EC45E60038E6AD /* Mentor Statistic OpenClassrooms.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mentor Statistic OpenClassrooms.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AFBA1723EC45E60038E6AD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		97AFBA1A23EC45E60038E6AD /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		97AFBA1C23EC45E60038E6AD /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		97AFBA1F23EC45E60038E6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		97AFBA2123EC45E60038E6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97AFBA2223EC45E60038E6AD /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		97AFBA2423EC45E60038E6AD /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		97AFBA2623EC45E60038E6AD /* MentorStatisticOpenClassrooms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MentorStatisticOpenClassrooms.entitlements; sourceTree = "<group>"; };
+		97AFBA2F23EC461C0038E6AD /* Display.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Display.js; sourceTree = "<group>"; };
+		97AFBA3023EC461C0038E6AD /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		97AFBA3123EC461C0038E6AD /* Statistics.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Statistics.js; sourceTree = "<group>"; };
+		97AFBA3223EC461C0038E6AD /* Price.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Price.js; sourceTree = "<group>"; };
+		97AFBA3323EC461C0038E6AD /* SessionModel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = SessionModel.js; sourceTree = "<group>"; };
+		97AFBA3423EC461C0038E6AD /* Parser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Parser.js; sourceTree = "<group>"; };
+		97AFBA3523EC461C0038E6AD /* DateUtils.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DateUtils.js; sourceTree = "<group>"; };
+		97AFBA3E23EC4D9D0038E6AD /* format.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = format.js; sourceTree = "<group>"; };
+		97AFBA3F23EC4D9D0038E6AD /* jquery-3.3.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.3.1.js"; sourceTree = "<group>"; };
+		97AFBA4023EC4D9D0038E6AD /* jquery.tabletojson.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.tabletojson.js; sourceTree = "<group>"; };
+		97AFBA4223EC4D9D0038E6AD /* config.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = config.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97AFB9F823EC45CE0038E6AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AFBA1223EC45E60038E6AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AFBA1823EC45E60038E6AD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97AFB9F223EC45CE0038E6AD = {
+			isa = PBXGroup;
+			children = (
+				97AFB9FD23EC45CE0038E6AD /* Mentor-Statistics-OpenClassrooms */,
+				97AFBA1923EC45E60038E6AD /* MentorStatisticOpenClassrooms */,
+				97AFBA1623EC45E60038E6AD /* Frameworks */,
+				97AFB9FC23EC45CE0038E6AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97AFB9FC23EC45CE0038E6AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97AFB9FB23EC45CE0038E6AD /* Mentor Tool OpenClassrooms.app */,
+				97AFBA1523EC45E60038E6AD /* Mentor Statistic OpenClassrooms.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97AFB9FD23EC45CE0038E6AD /* Mentor-Statistics-OpenClassrooms */ = {
+			isa = PBXGroup;
+			children = (
+				97AFB9FE23EC45CE0038E6AD /* AppDelegate.swift */,
+				97AFBA0023EC45CE0038E6AD /* ContentView.swift */,
+				97AFBA0223EC45D00038E6AD /* Assets.xcassets */,
+				97AFBA0723EC45D00038E6AD /* Main.storyboard */,
+				97AFBA0A23EC45D00038E6AD /* Info.plist */,
+				97AFBA0B23EC45D00038E6AD /* Mentor_Statistics_OpenClassrooms.entitlements */,
+				97AFBA0423EC45D00038E6AD /* Preview Content */,
+			);
+			path = "Mentor-Statistics-OpenClassrooms";
+			sourceTree = "<group>";
+		};
+		97AFBA0423EC45D00038E6AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97AFBA0523EC45D00038E6AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97AFBA1623EC45E60038E6AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97AFBA1723EC45E60038E6AD /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97AFBA1923EC45E60038E6AD /* MentorStatisticOpenClassrooms */ = {
+			isa = PBXGroup;
+			children = (
+				97AFBA4123EC4D9D0038E6AD /* config */,
+				97AFBA3D23EC4D9D0038E6AD /* libs */,
+				97AFBA2E23EC461C0038E6AD /* src */,
+				97AFBA1A23EC45E60038E6AD /* SafariExtensionHandler.swift */,
+				97AFBA1C23EC45E60038E6AD /* SafariExtensionViewController.swift */,
+				97AFBA1E23EC45E60038E6AD /* SafariExtensionViewController.xib */,
+				97AFBA2123EC45E60038E6AD /* Info.plist */,
+				97AFBA2223EC45E60038E6AD /* script.js */,
+				97AFBA2423EC45E60038E6AD /* ToolbarItemIcon.pdf */,
+				97AFBA2623EC45E60038E6AD /* MentorStatisticOpenClassrooms.entitlements */,
+			);
+			path = MentorStatisticOpenClassrooms;
+			sourceTree = "<group>";
+		};
+		97AFBA2E23EC461C0038E6AD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				97AFBA2F23EC461C0038E6AD /* Display.js */,
+				97AFBA3023EC461C0038E6AD /* main.js */,
+				97AFBA3123EC461C0038E6AD /* Statistics.js */,
+				97AFBA3223EC461C0038E6AD /* Price.js */,
+				97AFBA3323EC461C0038E6AD /* SessionModel.js */,
+				97AFBA3423EC461C0038E6AD /* Parser.js */,
+				97AFBA3523EC461C0038E6AD /* DateUtils.js */,
+			);
+			name = src;
+			path = ../../../src;
+			sourceTree = "<group>";
+		};
+		97AFBA3D23EC4D9D0038E6AD /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				97AFBA3E23EC4D9D0038E6AD /* format.js */,
+				97AFBA3F23EC4D9D0038E6AD /* jquery-3.3.1.js */,
+				97AFBA4023EC4D9D0038E6AD /* jquery.tabletojson.js */,
+			);
+			name = libs;
+			path = ../../../libs;
+			sourceTree = "<group>";
+		};
+		97AFBA4123EC4D9D0038E6AD /* config */ = {
+			isa = PBXGroup;
+			children = (
+				97AFBA4223EC4D9D0038E6AD /* config.js */,
+			);
+			name = config;
+			path = ../../../config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97AFB9FA23EC45CE0038E6AD /* Mentor Tool OpenClassrooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AFBA0E23EC45D00038E6AD /* Build configuration list for PBXNativeTarget "Mentor Tool OpenClassrooms" */;
+			buildPhases = (
+				97AFB9F723EC45CE0038E6AD /* Sources */,
+				97AFB9F823EC45CE0038E6AD /* Frameworks */,
+				97AFB9F923EC45CE0038E6AD /* Resources */,
+				97AFBA2D23EC45E60038E6AD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97AFBA2823EC45E60038E6AD /* PBXTargetDependency */,
+			);
+			name = "Mentor Tool OpenClassrooms";
+			productName = "Mentor-Statistics-OpenClassrooms";
+			productReference = 97AFB9FB23EC45CE0038E6AD /* Mentor Tool OpenClassrooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97AFBA1423EC45E60038E6AD /* Mentor Statistic OpenClassrooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AFBA2A23EC45E60038E6AD /* Build configuration list for PBXNativeTarget "Mentor Statistic OpenClassrooms" */;
+			buildPhases = (
+				97AFBA1123EC45E60038E6AD /* Sources */,
+				97AFBA1223EC45E60038E6AD /* Frameworks */,
+				97AFBA1323EC45E60038E6AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mentor Statistic OpenClassrooms";
+			productName = Safari;
+			productReference = 97AFBA1523EC45E60038E6AD /* Mentor Statistic OpenClassrooms.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97AFB9F323EC45CE0038E6AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Vincent Saluzzo";
+				TargetAttributes = {
+					97AFB9FA23EC45CE0038E6AD = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					97AFBA1423EC45E60038E6AD = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 97AFB9F623EC45CE0038E6AD /* Build configuration list for PBXProject "Mentor-Statistics-OpenClassrooms" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97AFB9F223EC45CE0038E6AD;
+			productRefGroup = 97AFB9FC23EC45CE0038E6AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97AFB9FA23EC45CE0038E6AD /* Mentor Tool OpenClassrooms */,
+				97AFBA1423EC45E60038E6AD /* Mentor Statistic OpenClassrooms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97AFB9F923EC45CE0038E6AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AFBA0923EC45D00038E6AD /* Main.storyboard in Resources */,
+				97AFBA0623EC45D00038E6AD /* Preview Assets.xcassets in Resources */,
+				97AFBA0323EC45D00038E6AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AFBA1323EC45E60038E6AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AFBA4623EC4D9D0038E6AD /* config.js in Resources */,
+				97AFBA3C23EC461C0038E6AD /* DateUtils.js in Resources */,
+				97AFBA4323EC4D9D0038E6AD /* format.js in Resources */,
+				97AFBA3923EC461C0038E6AD /* Price.js in Resources */,
+				97AFBA2523EC45E60038E6AD /* ToolbarItemIcon.pdf in Resources */,
+				97AFBA4523EC4D9D0038E6AD /* jquery.tabletojson.js in Resources */,
+				97AFBA2023EC45E60038E6AD /* SafariExtensionViewController.xib in Resources */,
+				97AFBA3B23EC461C0038E6AD /* Parser.js in Resources */,
+				97AFBA2323EC45E60038E6AD /* script.js in Resources */,
+				97AFBA3623EC461C0038E6AD /* Display.js in Resources */,
+				97AFBA3723EC461C0038E6AD /* main.js in Resources */,
+				97AFBA3823EC461C0038E6AD /* Statistics.js in Resources */,
+				97AFBA4423EC4D9D0038E6AD /* jquery-3.3.1.js in Resources */,
+				97AFBA3A23EC461C0038E6AD /* SessionModel.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97AFB9F723EC45CE0038E6AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AFBA0123EC45CE0038E6AD /* ContentView.swift in Sources */,
+				97AFB9FF23EC45CE0038E6AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AFBA1123EC45E60038E6AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AFBA1D23EC45E60038E6AD /* SafariExtensionViewController.swift in Sources */,
+				97AFBA1B23EC45E60038E6AD /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97AFBA2823EC45E60038E6AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97AFBA1423EC45E60038E6AD /* Mentor Statistic OpenClassrooms */;
+			targetProxy = 97AFBA2723EC45E60038E6AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97AFBA0723EC45D00038E6AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AFBA0823EC45D00038E6AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97AFBA1E23EC45E60038E6AD /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AFBA1F23EC45E60038E6AD /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97AFBA0C23EC45D00038E6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97AFBA0D23EC45D00038E6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		97AFBA0F23EC45D00038E6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mentor-Statistics-OpenClassrooms/Mentor_Statistics_OpenClassrooms.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mentor-Statistics-OpenClassrooms/Preview Content\"";
+				DEVELOPMENT_TEAM = 82X969W369;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mentor-Statistics-OpenClassrooms/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentsaluzzo.Mentor-Statistics-OpenClassrooms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97AFBA1023EC45D00038E6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Mentor-Statistics-OpenClassrooms/Mentor_Statistics_OpenClassrooms.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Mentor-Statistics-OpenClassrooms/Preview Content\"";
+				DEVELOPMENT_TEAM = 82X969W369;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mentor-Statistics-OpenClassrooms/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentsaluzzo.Mentor-Statistics-OpenClassrooms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		97AFBA2B23EC45E60038E6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MentorStatisticOpenClassrooms/MentorStatisticOpenClassrooms.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82X969W369;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MentorStatisticOpenClassrooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentsaluzzo.Mentor-Statistics-OpenClassrooms.Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97AFBA2C23EC45E60038E6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MentorStatisticOpenClassrooms/MentorStatisticOpenClassrooms.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82X969W369;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = MentorStatisticOpenClassrooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentsaluzzo.Mentor-Statistics-OpenClassrooms.Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97AFB9F623EC45CE0038E6AD /* Build configuration list for PBXProject "Mentor-Statistics-OpenClassrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AFBA0C23EC45D00038E6AD /* Debug */,
+				97AFBA0D23EC45D00038E6AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AFBA0E23EC45D00038E6AD /* Build configuration list for PBXNativeTarget "Mentor Tool OpenClassrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AFBA0F23EC45D00038E6AD /* Debug */,
+				97AFBA1023EC45D00038E6AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AFBA2A23EC45E60038E6AD /* Build configuration list for PBXNativeTarget "Mentor Statistic OpenClassrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AFBA2B23EC45E60038E6AD /* Debug */,
+				97AFBA2C23EC45E60038E6AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97AFB9F323EC45CE0038E6AD /* Project object */;
+}
